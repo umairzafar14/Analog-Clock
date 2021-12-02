@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Analog Clock</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="icon" type="image/png" href="clock.png" />
+</head>
+
+<body>
+
+    <section class="clock container">
+        <div class="clock__container grid">
+            <div class="clock__content grid">
+                <div class="clock__circle">
+                    <span class="clock__twelve"></span>
+                    <span class="clock__three"></span>
+                    <span class="clock__six"></span>
+                    <span class="clock__nine"></span>
+
+                    <div class="clock__rounder"></div>
+                    <div class="clock__hour" id="clock-hour"></div>
+                    <div class="clock__minutes" id="clock-minutes"></div>
+                    <div class="clock__seconds" id="clock-seconds"></div>
+
+                    <!-- Dark/Light Theme -->
+                    <div class="clock__theme">
+                        <i class='bx bxs-moon' id='theme-button'></i>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="clock__text">
+                        <div class="clock__text-hour" id="text-hour"></div>
+                        <div class="clock__text-minutes" id="text-minutes"></div>
+                        <div class="clock__text-ampm" id="text-ampm"></div>
+                    </div>
+
+                    <div class="clock__date">
+                        <span id="date-day"></span>
+                        <span id="date-month"></span>
+                        <span id="date-year"></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="https://github.com/umairzafar14" target="_blank" class="clock__logo">GitHub Repo</a>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
